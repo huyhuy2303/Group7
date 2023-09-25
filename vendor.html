@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Glidejs -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.css" />
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="css/login.css" />
+
+  <title>Vendor Page</title>
+</head>
+
+<body>
+  <!-- 
+        ========================
+        Header
+        ========================
+     -->
+  <header id="header" class="header_vendor">
+    <!-- Navigation -->
+    <div class="navigation">
+      <div class="container">
+        <nav class="nav__center">
+          <div class="nav__header">
+            <div class="nav__logo">
+              <h1>SHOPI<span>Q</span></h1>
+            </div>
+
+            <div class="nav__hamburger">
+              <span>
+                <svg>
+                  <use xlink:href="./images/sprite.svg#icon-menu"></use>
+                </svg>
+              </span>
+            </div>
+          </div>
+
+          <div class="nav__menu">
+            <div class="menu__top">
+              <h1 class="nav__category">SHOPI<span>Q</span></h1>
+              <div class="close__toggle">
+                <svg>
+                  <use xlink:href="./images/sprite.svg#icon-cross"></use>
+                </svg>
+              </div>
+            </div>
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#header" class="nav__link scroll-link">Home</a>
+              </li>
+
+              <li class="nav__item">
+                <a href="#featured" class="nav__link scroll-link">Featured</a>
+              </li>
+
+              <li class="nav__item">
+                <a href="#blog" class="nav__link scroll-link">Blog</a>
+              </li>
+
+              <li class="nav__item">
+                <a href="#newsletter" class="nav__link scroll-link">Subscribe</a>
+              </li>
+
+              <li class="nav__item">
+                <h1>Hello {{naming}}</h1>
+              </li>
+
+               <li class="nav__item">
+                <a href="/home" class="nav__link">Log Out</a>
+              </li>
+
+            </ul>
+
+            <ul class="nav__icons">
+              <a href="#" class="icon__item">
+                <img src="images/bell.png">
+              </a>
+
+              <a href="#" class="icon__item">
+                <img src="images/checkout.png">
+              </a>
+
+              <a href="#" class="icon__item">
+                <img src="images/user.png">
+                <span>2</span>
+              </a>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="hero">
+        <div class="hero__content container">
+            <h1>
+                <span>Trustworthy - <span class="color"> Efficient -</span> Friendly </span>
+                <span>Your <span class="color">reliable business </span> partner</span>
+              </h1>
+              <a href="#" class="btn btn-hero">Sell now</a>
+            </div>
+      
+            <a href="#new__arrival" class="goto__next scroll-link">
+              <span>
+                <img src="images/down.png">
+              </span>
+            </a>
+            
+    </div>
+    </header>
+    <main>
+      <section class="section new__arrival" id="new__arrival">
+        <div class="arrivals container">
+          <div class="title">
+            <h1 class="primary__title">My Products</h1>
+          </div>
+  
+          <div class="arrival__center">
+            <div class="product">
+              <div class="img__container">
+                <img src="./images/pic1.png" alt="" />
+              </div>
+              <div class="product__bottom">
+                
+                
+                <h3>Polar Skate Co Devil T Shirt</h3>
+                <a href="#">Add To Cart</a>
+              </div>
+            </div>
+            <div class="product">
+              <div class="img__container">
+                <img src="./images/pic2.png" alt="" />
+              </div>
+              <div class="product__bottom">
+                
+                <h3>Polar Skate Co Devil T Shirt</h3>
+                <a href="#">Add To Cart</a>
+              </div>
+            </div>
+            <div class="product">
+              <div class="img__container">
+                <img src="./images/pic3.png" alt="" />
+              </div>
+              <div class="product__bottom">
+                
+                <h3>Polar Skate Co Devil T Shirt</h3>
+                <a href="#">Add To Cart</a>
+              </div>
+            </div>
+            <div class="product">
+              <div class="img__container">
+                <img src="./images/pic7.png" alt="" />
+              </div>
+              <div class="product__bottom">
+               
+                <h3>Polar Skate Co Devil T Shirt</h3>
+                <a href="#">Add To Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section class="section featured" id="featured">
+        <div class="featured__container container">
+          <div class="title">
+            
+            <h1 class="primary__title">Add new Products +</h1>
+          </div>
+  
+          
+        </div>
+      </section>
+  
+    </main>
+        
+
+    <!-- Footer -->
+    <footer id="footer" class="section footer">
+        <div class="container">
+          <div class="footer__top">
+            <div class="footer-top__box">
+              <h3>EXTRAS</h3>
+              <a href="#">Brands</a>
+              <a href="#">Gift Certificates</a>
+              <a href="#">Affiliate</a>
+              <a href="#">Specials</a>
+              <a href="#">Site Map</a>
+            </div>
+            <div class="footer-top__box">
+              <h3>INFORMATION</h3>
+              <a href="#">About Us</a>
+              <a href="#">Privacy Policy</a>
+              <a href="#">Terms & Conditions</a>
+              <a href="#">Contact Us</a>
+              <a href="#">Site Map</a>
+            </div>
+            <div class="footer-top__box">
+              <h3>MY ACCOUNT</h3>
+              <a href="#">My Account</a>
+              <a href="#">Order History</a>
+              <a href="#">Wish List</a>
+              <a href="#">Newsletter</a>
+              <a href="#">Returns</a>
+            </div>
+            <div class="footer-top__box">
+              <h3>CONTACT US</h3>
+              <div>
+                <span>
+                  <svg>
+                    <use xlink:href="./images/sprite.svg#icon-location"></use>
+                  </svg>
+                </span>
+                bla blo
+              </div>
+              <div>
+                <span>
+                  <svg>
+                    <use xlink:href="./images/sprite.svg#icon-envelop"></use>
+                  </svg>
+                </span>
+              bla blo
+              </div>
+              <div>
+                <span>
+                  <svg>
+                    <use xlink:href="./images/sprite.svg#icon-phone"></use>
+                  </svg>
+                </span>
+                bla blo
+              </div>
+              <div>
+                <span>
+                  <svg>
+                    <use xlink:href="./images/sprite.svg#icon-paperplane"></use>
+                  </svg>
+                </span>
+                bla blo
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </footer>
+      <!-- End Footer -->
+    </main>
+  
+    <!-- Glidejs -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+  
+    <!-- Custom Script -->
+    <script src="./js/slider.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+  
+  </html>
